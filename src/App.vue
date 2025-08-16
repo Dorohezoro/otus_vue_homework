@@ -1,9 +1,11 @@
 <script setup>
-import UserList from "./components/UserList.vue";
+  import ProductList from "./components/ProductList.vue";
 </script>
 
 <template>
-  <UserList/>
+  <div style="font-family: Arial, serif">
+    <product-list/>
+  </div>
 </template>
 
 <style scoped>
